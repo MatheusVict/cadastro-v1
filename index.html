@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="//db.onlinewebfonts.com/c/8d7d351969f1e648d8d3e3e83cf837fb?family=eva-font" rel="stylesheet" type="text/css"/>
+    <link rel="shortcut icon" href="Goodstuff-No-Nonsense-Free-Space-Space-shuttle-launch.ico" type="image/x-icon">
+    <script src="js/script.js" defer></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Cadastro Tu</title>
+</head>
+<body>
+    <div class="main">
+        <div class="left">
+            <h1>Registre uma conta<br> E viva uma aventura</h1>
+           <!-- <img src="mecha-01-logo.png">-->
+           <img src="to-the-stars-animate.svg"  class="foto" alt="foguete">
+        </div>
+        <div class="right">
+            <div class="box">
+                <h1>CADASTRO</h1>
+               <!--<div class="logi">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" placeholder="Digite o nome">
+                </div>-->
+                <div class="logi">
+                    <form action="https://api.sheetmonkey.io/form/9wfr1hCQYVkNS1MCHTNSpr" class="logi" id="formula" method="post"
+                    name="FormCadastro">
+                    <label for="usuario">Email ou Telefone</label>
+                    <input type="text" name="email"  placeholder="Informe email ou telefone" id="email" data-min-lenght="3">
+                </div>
+                <div class="logi">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Crie uma Senha" id="password">
+                </div>
+                <div class="logi">
+                    <label for="confir">Confirme sua senha</label>
+                    <input type="password" name="confirma" placeholder="Confirme sua senha" id="passwordconf">
+                </div>
+                <div class="termos">
+                    <input type="checkbox" name="confir" id="confirmado" class="confirmar"><span><b>Li e concordo com os</b></span>
+                    <a href="https://policies.google.com/terms?hl=pt-BR">termos de uso</a></div>
+                    <button type="submit"  class="bnt-log" id="submite">Criar</button></form>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
