@@ -90,8 +90,30 @@ button.addEventListener('click', (event) => {
         termos.classList.add("errorInput")
         event.preventDefault()
     }
+    /*const nodemailer = require('nodemailer');
+
+    const envio = email.value
+
+    const transport = nodemailer.createTransport({
+        host: 'smtp.gmail.com',
+        port: 465,
+        secure: true, // true 465
+        auth: {
+            user: 'matheusvictorhenrique@gmail.com',
+            pass: 'qtzikzejdbaujgml',
+        }
+    });
+    
+    transport.sendMail({
+        from: 'Matheus <matheusvictorhenrique@gmail.com>', //remetente e entre <> o email remetente 
+        to: `${envio}`,
+        subject: 'Obrigado pelo castro',
+        html: '<h1>Obrigado pelo seu cadastro</h1> <p>Garanto que será feliz em nossa equipe</p>',
+        text: 'Obrigado pelo cadastro',
+    })
+    .then(() => console.log('enviado'))
+    .catch((err) => console.log('erro: ', err));*/
 
     
-
 })
 

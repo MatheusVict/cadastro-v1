@@ -184,14 +184,29 @@ a {
         height: 80px;
         width: 200px;
     }
+    .box > h1{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:350px) and (max-width: 390px){
+    .box{
+        height: 77vh;
+    }
+    .box > h1{
+        margin: 5px 0px 0px;
+    }
+    .bnt-log{
+        margin: 7px;
+    }
 }
 
 @media only screen and (min-width:400px) and (max-width: 450px) {
-    .right > h1{
+    .box > h1{
         display: none;
        }
        .box{
-        height: 50px;
+        height: 79vh;
         width: 85vw;
         
        }
@@ -200,19 +215,21 @@ a {
         width: 100%;
        }
        .termos{
-        font-size: 19pt;
+        font-size: 12pt;
        }
-       
+       .logi{
+        margin: 2px;
+       }
    
 }
 
-@media only screen and (max-width: 670px) {
+@media only screen and (min-width: 600px) and (max-width: 670px) {
     .box{
-        height: 98vh;
+        height: 88vh;
+        
     }
-    .box > h1{
-        display: none;
-    }
+
+    
     .bnt-log{
         margin: 0;
     }
@@ -226,7 +243,7 @@ a {
         margin: 5px;
     }
     .foto{
-        height:200px;
+        padding: 12px 0px 0px;
     }
 }
 
